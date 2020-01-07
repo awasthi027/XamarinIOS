@@ -1,0 +1,80 @@
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x10430a005 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : mono_dump_native_crash_info
+	0x1042fe645 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : mono_handle_native_crash
+	0x1043095a1 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : sigabrt_signal_handler
+	0x7fff52457b5d - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x104b2e200 - Unknown
+	0x7fff5234ba5c - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/libsystem_c.dylib : abort
+	0x10452884f - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : xamarin_unhandled_exception_handler.cold.1
+	0x10451e499 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : xamarin_unhandled_exception_handler
+	0x1043bdbd7 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : mono_invoke_unhandled_exception_hook
+	0x1042fe1f5 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : mono_handle_exception_internal
+	0x1042fc669 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : mono_handle_exception
+	0x10428076f - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : mono_amd64_throw_exception
+	0x1067495b0 - Unknown
+	0x10451e2c4 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : xamarin_process_managed_exception
+	0x104524dd5 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : xamarin_invoke_trampoline
+	0x1045260f4 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : xamarin_arch_trampoline
+	0x104526abe - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : xamarin_x86_64_common_trampoline
+	0x7fff47a0ef01 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIViewController _sendViewDidLoadWithAppearanceProxyObjectTaggingEnabled]
+	0x7fff47a13e5a - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIViewController loadViewIfRequired]
+	0x7fff47a14277 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIViewController view]
+	0x7fff480ca3cf - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIWindow addRootViewControllerViewIfPossible]
+	0x7fff480c9ac0 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIWindow _updateLayerOrderingAndSetLayerHidden:actionBlock:]
+	0x7fff480cab43 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIWindow _setHidden:forced:]
+	0x7fff480ddef1 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIWindow _mainQueue_makeKeyAndVisible]
+	0x7fff482e9431 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIWindowScene _makeKeyAndVisibleIfNeeded]
+	0x7fff4761d445 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : +[UIScene _sceneForFBSScene:create:withSession:connectionOptions:]
+	0x7fff4808f170 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIApplication _connectUISceneFromFBSScene:transitionContext:]
+	0x7fff4808f4b2 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIApplication workspace:didCreateScene:withTransitionContext:completion:]
+	0x7fff47bfa7f5 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIApplicationSceneClientAgent scene:didInitializeWithEvent:completion:]
+	0x7fff365d6165 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices : -[FBSSceneImpl _callOutQueue_agent_didCreateWithTransitionContext:completion:]
+	0x7fff365fc4d8 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices : __86-[FBSWorkspaceScenesClient sceneID:createWithParameters:transitionContext:completion:]_block_invoke.154
+	0x7fff365e0c45 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices : -[FBSWorkspace _calloutQueue_executeCalloutFromSource:withBlock:]
+	0x7fff365fc169 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices : __86-[FBSWorkspaceScenesClient sceneID:createWithParameters:transitionContext:completion:]_block_invoke
+	0x7fff5223f7b9 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/libdispatch.dylib : _dispatch_client_callout
+	0x7fff522421d1 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/libdispatch.dylib : _dispatch_block_invoke_direct
+	0x7fff3662237e - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices : __FBSSERIALQUEUE_IS_CALLING_OUT_TO_A_BLOCK__
+	0x7fff3662206c - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices : -[FBSSerialQueue _queue_performNextIfPossible]
+	0x7fff3662257b - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/FrontBoardServices.framework/FrontBoardServices : -[FBSSerialQueue _performNextFromRunLoopSource]
+	0x7fff23bd4471 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__
+	0x7fff23bd439c - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRunLoopDoSource0
+	0x7fff23bd3bcc - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRunLoopDoSources0
+	0x7fff23bce87f - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRunLoopRun
+	0x7fff23bce066 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : CFRunLoopRunSpecific
+	0x7fff384c0bb0 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices : GSEventRunModal
+	0x7fff48092d4d - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : UIApplicationMain
+	0x1091f90c4 - Unknown
+	0x1091f8f33 - Unknown
+	0x1091f4be3 - Unknown
+	0x104313b95 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : mono_jit_runtime_invoke
+	0x104431d67 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : mono_runtime_invoke_checked
+	0x10443731c - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : mono_runtime_exec_main_checked
+	0x1042802e2 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : mono_jit_exec
+	0x104525c6d - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : xamarin_main
+	0x104257957 - /Users/chandrakant/Library/Developer/CoreSimulator/Devices/748370AD-48C6-429D-B64B-4EF9B1B180E6/data/Containers/Bundle/Application/8299B95F-B10B-46F8-9E42-B1303A39606F/TestXamariApp.app/TestXamariApp : main
+	0x7fff5227ec25 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/libdyld.dylib : start
+
+=================================================================
+	Basic Fault Address Reporting
+=================================================================
+Memory around native instruction pointer (0x7fff523bc2c2):0x7fff523bc2b2  ff ff c3 90 90 90 b8 48 01 00 02 49 89 ca 0f 05  .......H...I....
+0x7fff523bc2c2  73 08 48 89 c7 e9 87 a1 ff ff c3 55 48 89 e5 41  s.H........UH..A
+0x7fff523bc2d2  57 41 56 41 55 41 54 53 48 81 ec 88 00 00 00 4d  WAVAUATSH......M
+0x7fff523bc2e2  89 cf 49 89 f4 48 8d 05 2a e4 ae 37 48 8b 00 48  ..I..H..*..7H..H
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================

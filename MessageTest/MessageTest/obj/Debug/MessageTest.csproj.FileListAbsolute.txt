@@ -1,0 +1,5 @@
+/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/bin/Debug/NativeLibrary.dll
+/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/bin/Debug/NativeLibrary.pdb
+/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/obj/Debug/MessageTest.csprojAssemblyReference.cache
+/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/obj/Debug/NativeLibrary.dll
+/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/obj/Debug/NativeLibrary.pdb

@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestXamariApp", "TestXamariApp\TestXamariApp.csproj", "{B1C0FDC9-CB00-4ED8-8F22-75697432AEE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1C0FDC9-CB00-4ED8-8F22-75697432AEE4}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{B1C0FDC9-CB00-4ED8-8F22-75697432AEE4}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{B1C0FDC9-CB00-4ED8-8F22-75697432AEE4}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{B1C0FDC9-CB00-4ED8-8F22-75697432AEE4}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{B1C0FDC9-CB00-4ED8-8F22-75697432AEE4}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{B1C0FDC9-CB00-4ED8-8F22-75697432AEE4}.Debug|iPhone.Build.0 = Debug|iPhone
+		{B1C0FDC9-CB00-4ED8-8F22-75697432AEE4}.Release|iPhone.ActiveCfg = Release|iPhone
+		{B1C0FDC9-CB00-4ED8-8F22-75697432AEE4}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal

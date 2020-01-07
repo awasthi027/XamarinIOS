@@ -1,0 +1,42 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": []
+  },
+  "packageFolders": {
+    "/Users/chandrakant/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/MessageTest.csproj",
+      "projectName": "NativeLibrary",
+      "projectPath": "/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/MessageTest.csproj",
+      "packagesPath": "/Users/chandrakant/.nuget/packages/",
+      "outputPath": "/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/obj/",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "/Users/chandrakant/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {}
+    }
+  }
+}

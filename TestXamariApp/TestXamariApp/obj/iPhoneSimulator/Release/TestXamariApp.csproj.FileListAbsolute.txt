@@ -1,0 +1,13 @@
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Release/TestXamariApp.exe
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Release/Xamarin.Essentials.dll
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Release/Xamarin.Essentials.pdb
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Release/NativeLibrary.dll
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Release/NativeLibrary.pdb
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Release/coremlc/_PartialAppManifest.items
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Release/coremlc/_BundleResourceWithLogicalName.items
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Release/optimized/
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Release/TestXamariApp.csproj.CopyComplete
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Release/TestXamariApp.exe

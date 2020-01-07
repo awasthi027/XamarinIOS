@@ -1,0 +1,16 @@
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Debug/TestXamariApp.exe
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Debug/TestXamariApp.pdb
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Debug/NativeLibrary.dll
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Debug/NativeLibrary.pdb
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.3/ibtool/_BundleResourceWithLogicalName.items
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.3/actool/_PartialAppManifest.items
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.3/actool/_BundleResourceWithLogicalName.items
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.3/coremlc/_PartialAppManifest.items
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.3/coremlc/_BundleResourceWithLogicalName.items
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Debug/device-builds/iphone12.1-13.3/optimized/
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Debug/TestXamariApp.csprojAssemblyReference.cache
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Debug/TestXamariApp.csproj.CopyComplete
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Debug/TestXamariApp.exe
+/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Debug/TestXamariApp.pdb

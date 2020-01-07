@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{B1C0FDC9-CB00-4ED8-8F22-75697432AEE4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestXamariApp/ViewController.cs">
+    <Files>
+      <File FileName="TestXamariApp/ViewController.cs" Line="19" Column="6" />
+      <File FileName="TestXamariApp/ViewController.designer.cs" />
+      <File FileName="TestXamariApp/SceneDelegate.cs" />
+      <File FileName="TestXamariApp/Main.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestXamariApp" expanded="True">
+            <Node name="TestXamariApp" expanded="True">
+              <Node name="References" expanded="True" selected="True" />
+              <Node name="ViewController.cs" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TestXamariApp PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.748370AD-48C6-429D-B64B-4EF9B1B180E6" />
+</Properties>

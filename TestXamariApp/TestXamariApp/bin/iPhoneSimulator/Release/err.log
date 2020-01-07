@@ -1,0 +1,31 @@
+MonoTouch: Could not install sigaction override, unexpected sigaction implementation.
+2020-01-07 11:41:46.113814+0530 TestXamariApp[2937:84519] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=2937
+2020-01-07 11:41:46.114089+0530 TestXamariApp[2937:84519] SecTaskCopyDebugDescription: TestXamariApp[2937]/0#-1 LF=0
+2020-01-07 11:41:46.121888+0530 TestXamariApp[2937:84519] SecTaskLoadEntitlements failed error=22 cs_flags=200, pid=2937
+2020-01-07 11:41:46.122097+0530 TestXamariApp[2937:84519] SecTaskCopyDebugDescription: TestXamariApp[2937]/0#-1 LF=0
+2020-01-07 11:41:46.315386+0530 TestXamariApp[2937:84519] 
+Unhandled Exception:
+System.Exception: Could not create an native instance of the type 'MessageTest.DoSomthingClass': the native class hasn't been loaded.
+It is possible to ignore this condition by setting ObjCRuntime.Class.ThrowOnInitFailure to false.
+  at Foundation.NSObject.InitializeObject (System.Boolean alloced) [0x00043] in <e139e7c752b84c85bc1cc3eeae1725fa>:0 
+  at Foundation.NSObject..ctor (Foundation.NSObjectFlag x) [0x0000d] in <e139e7c752b84c85bc1cc3eeae1725fa>:0 
+  at MessageTest.DoSomthingClass..ctor () [0x00000] in <1a19114f4d4d45289648f25b7d52fe59>:0 
+  at TestXamariApp.ViewController.ViewDidLoad () [0x00006] in <fc76e73eaee243bdbd795be3e7d97574>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at (wrapper managed-to-native) UIKit.UIApplication.UIApplicationMain(int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <e139e7c752b84c85bc1cc3eeae1725fa>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x0000e] in <e139e7c752b84c85bc1cc3eeae1725fa>:0 
+  at TestXamariApp.Application.Main (System.String[] args) [0x00000] in <fc76e73eaee243bdbd795be3e7d97574>:0
+2020-01-07 11:41:46.316165+0530 TestXamariApp[2937:84519] Unhandled managed exception: Could not create an native instance of the type 'MessageTest.DoSomthingClass': the native class hasn't been loaded.
+It is possible to ignore this condition by setting ObjCRuntime.Class.ThrowOnInitFailure to false. (System.Exception)
+  at Foundation.NSObject.InitializeObject (System.Boolean alloced) [0x00043] in <e139e7c752b84c85bc1cc3eeae1725fa>:0 
+  at Foundation.NSObject..ctor (Foundation.NSObjectFlag x) [0x0000d] in <e139e7c752b84c85bc1cc3eeae1725fa>:0 
+  at MessageTest.DoSomthingClass..ctor () [0x00000] in <1a19114f4d4d45289648f25b7d52fe59>:0 
+  at TestXamariApp.ViewController.ViewDidLoad () [0x00006] in <fc76e73eaee243bdbd795be3e7d97574>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at (wrapper managed-to-native) UIKit.UIApplication.UIApplicationMain(int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, System.IntPtr principal, System.IntPtr delegate) [0x00005] in <e139e7c752b84c85bc1cc3eeae1725fa>:0 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x0000e] in <e139e7c752b84c85bc1cc3eeae1725fa>:0 
+  at TestXamariApp.Application.Main (System.String[] args) [0x00000] in <fc76e73eaee243bdbd795be3e7d97574>:0

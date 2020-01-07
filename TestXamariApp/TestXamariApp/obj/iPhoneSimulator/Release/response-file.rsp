@@ -1,0 +1,28 @@
+--cache=/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Release/mtouch-cache
+--sim=/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Release/TestXamariApp.app
+--executable=TestXamariApp
+ --sgen-conc
+ --nolink
+--sdkroot=/Applications/Xcode.app/Contents/Developer
+--sdk=13.2
+--targetver=13.2
+ --aot-options=-O=-float32
+ --http-message-handler=NSUrlSessionHandler
+ --abi=x86_64
+--symbollist=/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/iPhoneSimulator/Release/mtouch-symbols.list
+ --dsym=no
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
+-r=/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/bin/Debug/NativeLibrary.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Drawing.Common.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
+-r=/Users/chandrakant/.nuget/packages/xamarin.essentials/1.2.0/lib/xamarinios10/Xamarin.Essentials.dll
+-r=/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/bin/Debug/NativeLibrary.dll
+ --target-framework=Xamarin.iOS,v1.0
+--root-assembly=/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/bin/iPhoneSimulator/Release/TestXamariApp.exe
+ 
