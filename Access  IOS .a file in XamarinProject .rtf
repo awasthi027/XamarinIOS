@@ -147,9 +147,8 @@ If its not compiling in iOS device and simulator it not work xamarin\
 /*==================================================================================*/\
 \
 Start\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\fs48 \cf0 Xamarin static Library
+\fs48 Xamarin static Library
 \fs24 \
 Wrap iOS .a fine and dependent .h file and framework in xamarin library \
 \
@@ -180,9 +179,11 @@ Xcode Options:\
       -sdkpath SDK          Output the path of the SDK\
       -frameworks SDK       List all available framework directories in a given SDK.\
 Chandrakants-MacBook-Pro:MessageTest chandrakant$ \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 \cb1 \CocoaLigature1 \
 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f3\fs28 \cf7 \cb8 \CocoaLigature0 Chandrakants-MacBook-Pro:MessageTest chandrakant$ sharpie xcode -sdks\
 sdk: appletvos13.2    arch: arm64   \
@@ -223,6 +224,7 @@ Run this command Here Binding library name is
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f3\fs28 \cf7 \cb8 \CocoaLigature0 MessageTest chandrakant$ sharpie bind --output=MessageTest --namespace=MessageTest --sdk=iphoneos13.2 //Users/chandrakant/Desktop/XamarinR\\&D/MessageTest/MessageTest/iOSLib/header/*.h\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs24 \cf0 \cb1 \CocoaLigature1 \
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
@@ -300,13 +302,11 @@ End\
 /*==================================================================================*/\
 \
 Start\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\fs48 \cf0 Add Xamarin Static Binding to Xamarin Project\
+\fs48 Add Xamarin Static Binding to Xamarin Project\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\fs24 \cf0 Step 1:- \
+\fs24 Step 1:- \
 \
 1. Project- > References-> Edit References-> .Net Assembly -> Browser Library \
 \
@@ -383,8 +383,17 @@ End\
 
 \f0 \cf0 \cb1 /*==================================================================================*/\
 \
+\
+\
+\pard\tx593\pardeftab593\pardirnatural\partightenfactor0
 
-\f1 \cf4 \cb3 \
+\f1 \cf4 \cb3 Check framework architecture \
+
+\f0 \cf0 \cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs28 \cf7 \cb8 \CocoaLigature0 lipo -info AhaRadioFramework.framework/AhaRadioFramework
+\f1\fs24 \cf4 \cb3 \CocoaLigature1 \
 \pard\tx593\pardeftab593\pardirnatural\partightenfactor0
 \cf4 \
 }
