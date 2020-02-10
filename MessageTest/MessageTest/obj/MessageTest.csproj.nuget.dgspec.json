@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/MessageTest.csproj": {}
+    "/Users/chandrakant/Desktop/XamarinIOS/MessageTest/MessageTest/MessageTest.csproj": {}
   },
   "projects": {
-    "/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/MessageTest.csproj": {
+    "/Users/chandrakant/Desktop/XamarinIOS/MessageTest/MessageTest/MessageTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/MessageTest.csproj",
+        "projectUniqueName": "/Users/chandrakant/Desktop/XamarinIOS/MessageTest/MessageTest/MessageTest.csproj",
         "projectName": "NativeLibrary",
-        "projectPath": "/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/MessageTest.csproj",
+        "projectPath": "/Users/chandrakant/Desktop/XamarinIOS/MessageTest/MessageTest/MessageTest.csproj",
         "packagesPath": "/Users/chandrakant/.nuget/packages/",
-        "outputPath": "/Users/chandrakant/Desktop/XamarinR&D/MessageTest/MessageTest/obj/",
+        "outputPath": "/Users/chandrakant/Desktop/XamarinIOS/MessageTest/MessageTest/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

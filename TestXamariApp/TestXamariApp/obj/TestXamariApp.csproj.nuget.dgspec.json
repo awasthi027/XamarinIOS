@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/TestXamariApp.csproj": {}
+    "/Users/chandrakant/Desktop/XamarinIOS/TestXamariApp/TestXamariApp/TestXamariApp.csproj": {}
   },
   "projects": {
-    "/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/TestXamariApp.csproj": {
+    "/Users/chandrakant/Desktop/XamarinIOS/TestXamariApp/TestXamariApp/TestXamariApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/TestXamariApp.csproj",
+        "projectUniqueName": "/Users/chandrakant/Desktop/XamarinIOS/TestXamariApp/TestXamariApp/TestXamariApp.csproj",
         "projectName": "TestXamariApp",
-        "projectPath": "/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/TestXamariApp.csproj",
+        "projectPath": "/Users/chandrakant/Desktop/XamarinIOS/TestXamariApp/TestXamariApp/TestXamariApp.csproj",
         "packagesPath": "/Users/chandrakant/.nuget/packages/",
-        "outputPath": "/Users/chandrakant/Desktop/XamarinR&D/TestXamariApp/TestXamariApp/obj/",
+        "outputPath": "/Users/chandrakant/Desktop/XamarinIOS/TestXamariApp/TestXamariApp/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

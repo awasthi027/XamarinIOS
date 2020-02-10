@@ -74,8 +74,8 @@
 		CBBCBC4B23C3129500799472 /* TestStaticLib */ = {
 			isa = PBXGroup;
 			children = (
-				CBEE205623C448880005FA24 /* DoSomthingClass.m */,
 				CBBCBC4C23C3129500799472 /* DoSomthingClass.h */,
+				CBEE205623C448880005FA24 /* DoSomthingClass.m */,
 			);
 			path = TestStaticLib;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from yo######################\n# Options\n######################\n\nREVEAL_ARCHIVE_IN_FINDER=false\n\nFRAMEWORK_NAME=\"${PROJECT_NAME}\"\n\nSIMULATOR_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\"\n\nDEVICE_LIBRARY_PATH=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\n\nUNIVERSAL_LIBRARY_DIR=\"Universal\"\n\nFRAMEWORK=\"${UNIVERSAL_LIBRARY_DIR}\"\n\n\n######################\n# Build Frameworks\n######################\n#xcodebuild clean build CONFIGURATION_BUILD_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphoneos\" -scheme \"${PROJECT_NAME}\" -sdk iphonesimulator -configuration {CONFIGURATION} OBJROOT=\"${OBJROOT}/DependentBuilds\"\n#xcodebuild clean build CONFIGURATION_BUILD_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\" -scheme \"${PROJECT_NAME}\" -sdk iphoneos -configuration ${CONFIGURATION} OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\nxcodebuild -target \"${PROJECT_NAME}\" -scheme \"${PROJECT_NAME}\" -sdk iphonesimulator -configuration ${CONFIGURATION} OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\nxcodebuild -target \"${PROJECT_NAME}\" -scheme \"${PROJECT_NAME}\" -sdk iphoneos -configuration ${CONFIGURATION}  OBJROOT=\"${OBJROOT}/DependentBuilds\"\n\n######################\n# Create directory for universal\n######################\n\nrm -rf \"${UNIVERSAL_LIBRARY_DIR}\"\n\n#mkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n\nif [ ! -d \"${UNIVERSAL_LIBRARY_DIR}\" ]; then\nmkdir \"${UNIVERSAL_LIBRARY_DIR}\"\n# Control will enter here if $DIRECTORY doesn't exist.\nfi\n#mkdir \"${FRAMEWORK}\"\nif [ ! -d \"${FRAMEWORK}\" ]; then\nmkdir \"${FRAMEWORK}\"\n# Control will enter here if $DIRECTORY doesn't exist.\nfi\n\n######################\n# Copy files Framework\n######################\n\n#cp -r \"${DEVICE_LIBRARY_PATH}/.\" \"${FRAMEWORK}\"\n\n\n######################\n# Make an universal binary\n######################\n\nlipo \"${SIMULATOR_LIBRARY_PATH}/lib${FRAMEWORK_NAME}.a\" \"${DEVICE_LIBRARY_PATH}/lib${FRAMEWORK_NAME}.a\" -create -output \"${FRAMEWORK}/lib${FRAMEWORK_NAME}.a\" | echo\n#ur workspace to insert its path.\n";
+			shellScript = "chmod u+x \"${SRCROOT}/TestStaticLib/Scripts/Release.sh\"\n\"${SRCROOT}/TestStaticLib/Scripts/Release.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

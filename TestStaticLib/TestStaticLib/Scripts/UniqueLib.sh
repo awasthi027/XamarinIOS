@@ -1,4 +1,3 @@
-#!/bin/sh
 
 # Adapted from http://stackoverflow.com/questions/24039470/xcode-6-ios-creating-a-cocoa-touch-framework-architectures-issues/26691080#26691080
 # and https://gist.github.com/cromandini/1a9c4aeab27ca84f5d79
